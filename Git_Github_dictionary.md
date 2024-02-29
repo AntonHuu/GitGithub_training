@@ -42,9 +42,30 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
 
 - Local repository: Place where your snapshots/timeline is saved
 
+- Remote repository (in our case it is github)
+  
+  - Create repository 
+  
+  - Name: Easy if you use the same name as your repository (the name of folder that git is tracking) 
+  
+  - Description
+  
+  - README.txt: Detailed description of your project and tool usage (if it is the case) (should always have one!). Describes my project, code, main goals, usage, etc. Can also include links and directions for related data for example. Github will automatically recognize the file README.txt and show it on frontpage.
+  
+  - .gitignore: A textfile with no extension that should always be in non-caps, and where i list all the files/lists that should be ignored and not tracked by git nor shared on github: eg: data file
+    
+    Make a .gitignore and in it list all files that should be ignored
+    filename must be '.gitignore'. Github will ignore the file then, and it won't show that file.
+  
+  - 
+
 ### Git status allows me to check what files are:
 
 - To be staged: You have committed, it before, you have made new changes and git recognise the new changes are not yet added nor committed
+  - Why is staging inmportant?
+    Too many commits will make it hard to find a specific one.
+    Too little commits will have too many changes in one commit.
+    Use staging area as organisation point in order to classify what should be committed together. 
 - To be committeed: You have committed this file before, you have made new changes and git recognises you have added but not yet committed 
 - untracked files: Is a completely new file/folder, you have made changes and git recognises that you have not yet added nor committed.
   - This way you can check and organise in combination with staging area. Everything in staging area will be comitted together.
@@ -52,7 +73,36 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
 ### Travelling in the timeline (local repository)
 
 - git log to see history of all your commits: who, when, msg, commit ID 
+
 - git show/diff to see difference between two commits
+  
   - Show just shows what happend in ID1 and then ID2
-  - Diff shows the difference between ID 1 and ID2
-- 
+  - Diff shows the difference between ID1 and ID2
+
+- How do we connect to a remote repository
+  
+  - If you have acces and can edit the repository -> ssh key
+  - if you just need copy -> html key
+
+- Backup created only for commited changes! 
+
+- How to make files cross the bridge? 
+  
+  - git push
+  
+  - first time will always give error message:
+    
+    fatal: The current branch master has no upstream branch.
+    To push the current branch and set the remote as upstream, use
+    
+        git push --set-upstream GitGithub_training master
+    
+    To have this happen automatically for branches without a tracking
+    upstream, see 'push.autoSetupRemote' in 'git help config'.
+  
+  - We need to tell the remote one who is the master.
+    Copy paste the command and run it
+  
+  - Can also remove files from github via git rm <file> , commit and push (DELETES THE WHOLE FILE)
+  
+  - 

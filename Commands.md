@@ -6,7 +6,7 @@
 
 - `git commit -m "meaningfull message"` ->
 
-        Important
+        Important:
 
         - Why
 
@@ -33,5 +33,14 @@
 - `git show <commit ID1> <commit ID2>` -> to compare two versions with eachother. Everything in green is added, in red is deleted. This shows what happend in ID1 and then what happend in ID2
 
 - `git diff  <commit ID1> <commit ID2>` -> same but really comparing the difference between ID1 and ID2
+
+- `git remote add <name> <ssh>`-> connect to a remote repository on github! 
+  Creates a bridge between local repository and remote repository. 
+
+- `git push`-> everything commited will be pushed to the remote github (if already pushed before, it will only push the new changes)
+
+- `git rm <file>` -> remove file that has been committed. Still need to commit again and push in order to delete if from the githhub remote. (DELETES WHOLE FILE)
+
+- `git reset <file>` -> to unstage a file that has been added.
 
 - 
