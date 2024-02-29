@@ -38,7 +38,7 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
 
 - Develop area: working directory
 
-- Staging area: Temporary space. Place where you dump stuff before putting it in local repository (git add)
+- Staging area: Temporary space. Place where you dump stuff before putting it in local repository (git add). Also to organize logically your area. You can add 1 file, commit, then add another and commit and they will both be saved in the timeline as 2 seperate timespot.
 
 - Local repository: Place where your snapshots/timeline is saved
 
@@ -47,3 +47,4 @@ Git status allows me to check what files are:
 - uncomitted changes
 - unchanged files
 - untracked files
+  - This way you can check and organise in combination with staging area. Everything in staging area will be comitted together.
