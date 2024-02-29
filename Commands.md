@@ -43,4 +43,7 @@
 
 - `git reset <file>` -> to unstage a file that has been added.
 
+- `git pull` to sync back from the github repository to local repository 
+  Works both ways with push -> need to syncronise before you start adjusting. 
+
 - 

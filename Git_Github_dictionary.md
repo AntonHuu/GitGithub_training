@@ -42,7 +42,7 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
 
 - Local repository: Place where your snapshots/timeline is saved
 
-- Remote repository (in our case it is github)
+- Remote repository (in our case it is github): Backupspace on a server
   
   - Create repository 
   
@@ -104,5 +104,13 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
     Copy paste the command and run it
   
   - Can also remove files from github via git rm <file> , commit and push (DELETES THE WHOLE FILE)
-  
-  - 
+
+### Github repository
+
+- Commits to see the history of commits.
+
+- Github 'bridge' works both ways.
+
+- Need to see with pushing and pulling as it goes both ways so if you delete something on github, you cant push anything else from local to remote untill you have pulled the changes so it is synced. And once you pull it will adjust on your local. So if its deleted, it will delete on both and theres no way to get it back. 
+
+- 
