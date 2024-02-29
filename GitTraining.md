@@ -1,6 +1,6 @@
 # Introduction to Git & Github
 
-## Day1 introduction
+### Git
 
 Git repository = timeline: Everything is stored here, however if you go back and adjust something, the 'present' is also adjusted. It is locally stored and you can work together with other people.
 
@@ -12,7 +12,7 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
 
 - git is invisible in folder. Its the history of all the things you do in the folder
 
-- Any point in timeline is a snapshot: When/how to take snapshot? Develop area -> staging area -> repository area (commitment!)
+- Any point in timeline is a snapshot: When/how to take snapshot? Develop area -> staging area -> local repository area (commitment!)
 
 - $ git commit 
 
@@ -29,6 +29,20 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
 - IMPORTANT: don't double ´´´git git´´´ 
 
 - IMPORTANT: dont double init init git
+
+- You can save as much as you want but it won't create a backup in timeline unless you commit!
+
+- Don't init git in a subfolder where the parent folder already init git
+
+- Init in subfolder will create a timeline/repository inside a timeline/repository
+
+### Conceptual areas
+
+- Develop area: working directory
+
+- Staging area: Temporary space. Place where you dump stuff before putting it in local repository (git add)
+
+- Local repository: Place where your snapshots/timeline is saved
 
 ## Commands
 
