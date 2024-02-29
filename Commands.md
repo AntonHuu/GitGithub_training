@@ -16,7 +16,7 @@
 
         - Limitations
 
-- git status -> check in what conceptual area you are
+- git status -> check in what conceptual area your file/folder is
   
   - Verify uncomitted changes
   - Verify staged unchanged files

@@ -44,7 +44,7 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
 
 Git status allows me to check what files are:
 
-- uncomitted changes
-- unchanged files
-- untracked files
+- To be staged: You have committed, it before, you have made new changes and git recognise the new changes are not yet added nor committed
+- To be committeed: You have committed this file before, you have made new changes and git recognises you have added but not yet committed 
+- untracked files: Is a completely new file/folder, you have made changes and git recognises that you have not yet added nor committed.
   - This way you can check and organise in combination with staging area. Everything in staging area will be comitted together.
