@@ -48,3 +48,5 @@ Git status allows me to check what files are:
 - To be committeed: You have committed this file before, you have made new changes and git recognises you have added but not yet committed 
 - untracked files: Is a completely new file/folder, you have made changes and git recognises that you have not yet added nor committed.
   - This way you can check and organise in combination with staging area. Everything in staging area will be comitted together.
+
+without -m commit
