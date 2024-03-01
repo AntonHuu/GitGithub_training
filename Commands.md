@@ -63,5 +63,9 @@
 
 - `git branch -a` -> more powerfull than git branch list as it lists everything. (Sometimes on first pull from github, you can't see all the branches).
 
+- `git switch -c <name>` -> create branch
+
+- `git switch <name> <ID>` -> Create branch from detached head (ID).
+
 - `git checkout <branch_name>` -> Use to move through branches
   Also used to move between commits! (but be carefull)
