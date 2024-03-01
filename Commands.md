@@ -61,5 +61,7 @@
 
 - `git branch --list` -> Gives list of branches. Also lets you see in which you are (green highlighted)
 
+- `git branch -a` -> more powerfull than git branch list as it lists everything. (Sometimes on first pull from github, you can't see all the branches).
+
 - `git checkout <branch_name>` -> Use to move through branches
   Also used to move between commits! (but be carefull)
