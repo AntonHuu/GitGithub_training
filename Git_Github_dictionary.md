@@ -148,7 +148,9 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
   
   - Connected to a moment in time
   
-  - IMPORTANT: Close all files your editing (add and commit/push), and after switching reload.
+  - IMPORTANT: **Close all files your editing (add and commit/push), and after switching reload.** 
+  
+  - When branching: The Develop area becomes a mirror of the timeline. 
 
 Parallel timeline: how to experiment risk free
 
