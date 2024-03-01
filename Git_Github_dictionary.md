@@ -157,4 +157,4 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
 ### Solving conflicts
 
 - Eg if you have not synchronized and adjusted a file before pulling and now you have changes but you have to pull. It will pull and your doc will be adjusted and you will see both adaptations. You choose what you want to keep/delete. Save the file, add, commit and push again to 'merge'.
-- 
+- Merging branches also need to be solved for eg when an experiment works out and you want to merge it back to main timeline. 

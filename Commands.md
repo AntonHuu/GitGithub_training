@@ -69,3 +69,5 @@
 
 - `git checkout <branch_name>` -> Use to move through branches
   Also used to move between commits! (but be carefull)
+
+- `git merge <branche name>` -> to merge branches. 
