@@ -152,7 +152,7 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
   
   - When branching: The Develop area becomes a mirror of the timeline you want to see. So some docs may disappear when going to a different timeline according to in which timeline it is saved. 
   
-  - Can also start a branch from an old commit!
+  - Can also start a branch from an old commit! Make sure to attach it to a new timeline or it will be a detached head and lost when going back to other timeline. See what git tells you to solve it!
 
 Parallel timeline: how to experiment risk free
 
