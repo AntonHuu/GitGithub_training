@@ -147,3 +147,14 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
   - Independent timeline
   
   - Connected to a moment in time
+  
+  - IMPORTANT: **Close all files your editing (add and commit/push), and after switching reload.** 
+  
+  - When branching: The Develop area becomes a mirror of the timeline you want to see. So some docs may disappear when going to a different timeline according to in which timeline it is saved. 
+  
+  - Can also start a branch from an old commit! Make sure to attach it to a new timeline or it will be a detached head and lost when going back to other timeline. See what git tells you to solve it!
+
+### Solving conflicts
+
+- Eg if you have not synchronized and adjusted a file before pulling and now you have changes but you have to pull. It will pull and your doc will be adjusted and you will see both adaptations. You choose what you want to keep/delete. Save the file, add, commit and push again to 'merge'.
+- Merging branches also need to be solved for eg when an experiment works out and you want to merge it back to main timeline. 
