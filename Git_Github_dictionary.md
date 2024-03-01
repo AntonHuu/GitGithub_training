@@ -112,5 +112,3 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
 - Github 'bridge' works both ways.
 
 - Need to see with pushing and pulling as it goes both ways so if you delete something on github, you cant push anything else from local to remote untill you have pulled the changes so it is synced. And once you pull it will adjust on your local. So if its deleted, it will delete on both and theres no way to get it back. 
-
-- 
