@@ -55,9 +55,9 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
   - .gitignore: A textfile with no extension that should always be in non-caps, and where i list all the files/lists that should be ignored and not tracked by git nor shared on github: eg: data file
     
     Make a .gitignore and in it list all files that should be ignored
-    filename must be '.gitignore'. Github will ignore the file then, and it won't show that file.
-  
-  - 
+    filename must be '.gitignore'. Github will ignore the file then, and it won't show that file. Do it before committing the file, otherwise an older version still might be somewhere in the history.
+    
+    Can also ignore whole folder! 
 
 ### Git status allows me to check what files are:
 
@@ -113,4 +113,4 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
 
 - Need to see with pushing and pulling as it goes both ways so if you delete something on github, you cant push anything else from local to remote untill you have pulled the changes so it is synced. And once you pull it will adjust on your local. So if its deleted, it will delete on both and theres no way to get it back. 
 
-- 
+- trying head revert
