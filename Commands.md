@@ -48,6 +48,8 @@
 
 - `git rebase` -> Rebase a commit on current tip (work on older folder but it overwrites current file).
 
-- `git revert` -> Can revert files out of staging area. Can also revert a file thats been committed. See -help to see more option. HEAD refers to latest commit. Git won't allow to revert if any other files are still in the three. Can also revert a revert!
+- `git revert` -> Can revert files out of staging area. Can also revert a file thats been committed. See -help to see more option. HEAD refers to latest commit. Git HEAD will revert 1, Git HEAD~1 will revert 2 back1.
+  Git won't allow to revert if any other files are still in the three. Can also revert a revert!
 
-- 
+- `git clone <ssh url from github repository>` -> Will clone a repository from the github to your folder. Can be usefull if you deleted the folder with Git inside. (In the same state it was last pushed before). No need to git init or make bridge, it will be able to 'pull' everything.
+  Can use HTTPS link if you use someone else his repository eg you want to use their code. This way you can't push changes to his github. 
