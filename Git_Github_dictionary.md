@@ -166,3 +166,7 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
 - Easy to remember/find
 
 - Eg when it is a code that is robust at that point and works.
+
+- People on github can also see the tag
+
+- 

@@ -74,4 +74,4 @@
 
 - `git branche -d <branche name>` -> to remove branch. If branch already merged. It still appears in branchlist because it contains the history log of the branch. If you delete it, it only deletes the history. 
 
-- `git tag <name> `-> Will tag the commit you are in with <name> so its easy to find or checkout to via that name.
+- `git tag <name> `-> Will tag the commit you are in with <name> so its easy to find or checkout to via that name. You can give multiple tags to the same commit. 
