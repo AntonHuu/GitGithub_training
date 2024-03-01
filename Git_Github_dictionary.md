@@ -34,6 +34,8 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
 
 - Init in subfolder will create a timeline/repository inside a timeline/repository
 
+- git cannot look inside other files except for .txt and markdown. So if you have .doc it won't be able to look inside and see what changed. However you can still upload it and download it via github and download to see the inside.
+
 ### Conceptual areas
 
 - Develop area: working directory
