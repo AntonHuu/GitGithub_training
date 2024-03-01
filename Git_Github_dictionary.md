@@ -147,3 +147,9 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
   - Independent timeline
   
   - Connected to a moment in time
+
+Parallel timeline: how to experiment risk free
+
+1. Create new timeline: branch and give it a new
+
+2. checkout timeline you want ot work on. 

@@ -57,7 +57,9 @@
   No need to git init or make bridge, it will be able to 'pull' everything. Just make sure you don't clone it into a folder where a git is already present.
   Can use HTTPS link if you use someone else his repository eg you want to use their code. This way you can't push changes to his github. 
 
-- `git branch <name>` -> Create new branch. If you create new branch, first commit will be the commit you branched from the original one. 
+- `git branch <name>` -> Create new branch. If you create new branch, first commit will be the commit you branched from the original one. <name> is the name you give the branch. 
+
+- `git branch --list` -> Gives list of branches. Also lets you see in which you are (green highlighted)
 
 - `git checkout <branch_name>` -> Use to move through branches
   Also used to move between commits! (but be carefull)
