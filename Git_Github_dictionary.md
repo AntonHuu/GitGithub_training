@@ -150,7 +150,7 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
   
   - IMPORTANT: **Close all files your editing (add and commit/push), and after switching reload.** 
   
-  - When branching: The Develop area becomes a mirror of the timeline. 
+  - When branching: The Develop area becomes a mirror of the timeline you want to see. So some docs may disappear when going to a different timeline according to in which timeline it is saved. 
 
 Parallel timeline: how to experiment risk free
 
