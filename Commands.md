@@ -71,3 +71,5 @@
   Also used to move between commits! (but be carefull)
 
 - `git merge <branche name>` -> to merge branches. 
+
+- `git branche -d <branche name>` -> to remove branch. If branch already merged. It still appears in branchlist because it contains the history log of the branch. If you delete it, it only deletes the history. 
