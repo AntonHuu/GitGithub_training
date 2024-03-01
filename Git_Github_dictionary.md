@@ -154,8 +154,6 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
   
   - Can also start a branch from an old commit! Make sure to attach it to a new timeline or it will be a detached head and lost when going back to other timeline. See what git tells you to solve it!
 
-Parallel timeline: how to experiment risk free
+### Solving conflicts
 
-1. Create new timeline: branch and give it a new
-
-2. checkout timeline you want ot work on. 
+- 
