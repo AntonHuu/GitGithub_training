@@ -169,4 +169,19 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
 
 - People on github can also see the tag
 
-- 
+- Marking release versions
+
+- Experimenting risk free: This point is where everything still works
+
+- Reproducibility: This code was used to produce these results
+
+### Forking
+
+- See introduction for full explanation
+
+- Another way of 'working together'/working in someone else's repository without changing anything. At the end you can ask permission to implement the changes. 
+  It creates a copy of a repository that you own. 
+
+- Option at the repository on github. 
+
+- You can clone it to local repository and work with it. Add collabs, ...
