@@ -117,3 +117,33 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
 
 - Collaborations: Go to the repository, settings, access and then collaborators. 
   Add people via their mail connected to their github. 
+  So if you collab, always make sure you are synced. Pull first to see changes others made before editing again, because git won't allow you to push if you're not synchronized.
+  Carefull because you can't push at the same time same file. 
+  Person that created repository, is owner (can add other collaborator, change name, delete it, ...). Collaborator can edit but doesn't own it. 
+
+### Experimenting Risk Free (branching)
+
+- Like working on parallel timeline
+
+- git branch to create a branch. Need to know in which timeline you're working after because it is seperate commit! (maybe also pushing will work on one timeline.) Can also merge them back later! 
+  
+  commits: 1-2-3-4-5
+  If you branch from 3 and make new one: 3-4*-5*... In this timeline, 3 will be the first commit in your new timeline.
+
+- - Maybe to test new things while keeping master timeline safe
+  
+  - When collaborating in a project
+  
+  - Looking for different solution on the same issue
+  
+  - Release series (V1.1, V1.2, ...)
+
+- Branch
+  
+  - Alternative history of commits
+  
+  - Has a specific name (chooseable)
+  
+  - Independent timeline
+  
+  - Connected to a moment in time

@@ -51,5 +51,13 @@
 - `git revert` -> Can revert files out of staging area. Can also revert a file thats been committed. See -help to see more option. HEAD refers to latest commit. Git HEAD will revert 1, Git HEAD~1 will revert 2 back1.
   Git won't allow to revert if any other files are still in the three. Can also revert a revert!
 
-- `git clone <ssh url from github repository>` -> Will clone a repository from the github to your folder. Can be usefull if you deleted the folder with Git inside. (In the same state it was last pushed before). No need to git init or make bridge, it will be able to 'pull' everything.
+- `git clone <ssh url (or HTTPS url) from github repository>` -> Will clone a repository from the github to your folder. 
+  Use this if you want to retrieve github codes from someone else. 
+  Can be usefull if you deleted the folder with Git inside. (In the same state it was last pushed before). 
+  No need to git init or make bridge, it will be able to 'pull' everything. Just make sure you don't clone it into a folder where a git is already present.
   Can use HTTPS link if you use someone else his repository eg you want to use their code. This way you can't push changes to his github. 
+
+- `git branch <name>` -> Create new branch. If you create new branch, first commit will be the commit you branched from the original one. 
+
+- `git checkout <branch_name>` -> Use to move through branches
+  Also used to move between commits! (but be carefull)
