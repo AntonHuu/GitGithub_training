@@ -147,3 +147,6 @@ Github = Backup of your timeline: Instead of going back in 'time' to adjust your
   - Independent timeline
   
   - Connected to a moment in time
+
+
+Adding more conflict - doc2
