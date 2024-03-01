@@ -46,8 +46,4 @@
 - `git pull` to sync back from the github repository to local repository 
   Works both ways with push -> need to syncronise before you start adjusting. 
 
-- `git revert` -> Can revert a file from staging area or even a whole committed file to a previous version. See -help for more options. HEAD is the last commit (most recent one)
-
-- `git rebase` -> Reapply commits on top of another base tip 
-
 - 
