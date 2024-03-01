@@ -46,4 +46,6 @@
 - `git pull` to sync back from the github repository to local repository 
   Works both ways with push -> need to syncronise before you start adjusting. 
 
-- 
+- `git rebase` -> Rebase a commit on current tip (work on older folder but it overwrites current file)
+
+- `git revert` -> Can revert files out of staging area. Can also revert a file thats been committed. See -help to see more option. HEAD refers to latest commit. Git won't allow to revert if any other files are still in the three. Can also revert a revert!
